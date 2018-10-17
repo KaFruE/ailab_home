@@ -11,42 +11,87 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
               /* ↑↑↑ 폰트 적용하기 위해 링크 끌어오는 코드 ↑↑↑ */
 
-h1{
-  font-family: 'Jeju Hallasan', serif;
-}
-
-#body-content > ul > li > h2{
-  border-style: solid;
-}
-
-#body-menu{
-  margin: 100px;
-}
-
 #bottom > p{
-  color: gray;
+                color: gray;
 }
+
 nav {
-  margin-left:8%;
-  margin-right:8%;
-  vertical-align: text-bottom;
-  padding:0px
-}
+        margin-left:8%;
+        margin-right:8%;
+        vertical-align: text-bottom;
+        padding:0px
+      }
 
 nav > ul{
-  border-top: thin solid gray;
-  margin:0px;
-  padding:0px;
-  list-style:none;
+        border-top: thin solid gray;
+        margin:0px;
+        padding:0px;
+        list-style:none;
 }
+
 nav li{
-  float:left;
-  margin-bottom: 5px;
-  margin-right: 50px
+        float:left;
+        margin-bottom: 5px;
+        margin-right: 50px
 }
+
 nav li a{
-  font-size:20px;
-  color:black;
-  font-weight:bold;
-  text-decoration:none
+        font-size:20px;
+        color:black;
+        font-weight:bold;
+        text-decoration:none
+}
+
+#body-img > img{
+          max-width : 100%;
+}
+
+#body-content > ul > hr{
+        width : 200px;
+        solid
+}
+
+#body-content > ul > h1{
+        font-size: 45px;
+}
+
+#body-content > ul > table{
+        background-color: #d4e1f4;
+        width: 250px;
+        height: 50px;
+        border-top: 4px solid #444444;
+        border-bottom: 2px solid #444444;
+        font-size: 1.8em;
+
+}
+
+#body-main{
+  list-style: none;
+}
+
+#body-main > #body-menu,#body-content{
+  float: left;
+
+}
+
+
+#body-menu{
+  margin-right:  200px;
+  padding-left: 100px;
+}
+
+#body-content{
+    margin-right:   50px;
+}
+
+#body-menu > ul{
+  font-size: 20px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+#body-content > ul > table > tr > td{
 }
